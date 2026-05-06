@@ -44,8 +44,8 @@ export function Footer() {
             <a href="tel:+19153168488" className="block text-sm text-white/80 hover:text-white">
               +1 (915) 316-8488
             </a>
-            <a href="mailto:info@premiumexpress.com" className="block text-sm text-white/80 hover:text-white">
-              info@premiumexpress.com
+            <a href="mailto:operations@premiumexpresslog.com" className="block text-sm text-white/80 hover:text-white">
+              operations@premiumexpresslog.com
             </a>
             <p className="text-sm text-white/50">{locale === 'es' ? '48 estados contiguos, EE.UU.' : '48 contiguous states, USA'}</p>
           </div>

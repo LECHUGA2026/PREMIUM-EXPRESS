@@ -1,6 +1,6 @@
 import { HeroSection } from './components/sections/HeroSection'
 import { ServicesSection } from './components/sections/ServicesSection'
-import { LoadsSection } from './components/sections/LoadsSection'
+import { NosotrosSection } from './components/sections/NosotrosSection'
 import { ContactDirectSection } from './components/sections/ContactDirectSection'
 import { ContactForm } from './components/sections/ContactForm'
 import { ClientOnlyElements } from './components/ClientOnlyElements'
@@ -13,7 +13,7 @@ export default function HomePage() {
       <main id="main-content">
         <HeroSection />
         <ServicesSection />
-        <LoadsSection />
+        <NosotrosSection />
         <ContactDirectSection />
         <ContactForm />
       </main>

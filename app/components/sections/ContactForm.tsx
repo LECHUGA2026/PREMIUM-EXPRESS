@@ -133,10 +133,10 @@ export function ContactForm() {
                     {locale === 'es' ? '¿Prefieres hablar directamente?' : 'Prefer to talk directly?'}
                   </p>
                   <a
-                    href="tel:+19153168488"
+                    href="tel:+19152539223"
                     className="inline-flex items-center gap-2 text-brand-burgundy font-bold text-lg hover:text-brand-burgundy-dark transition-colors"
                   >
-                    +1 (915) 316-8488
+                    +1 (915) 253-9223
                   </a>
                   <p className="text-xs text-white/50 mt-2">Mon-Fri 7AM-7PM CST</p>
                 </div>
@@ -161,7 +161,7 @@ export function ContactForm() {
                     : 'We have received your request. Our team will contact you within the next 2 business days.'}
                 </p>
                 <a
-                  href="tel:+19153168488"
+                  href="tel:+19152539223"
                   className="inline-flex items-center gap-2 bg-brand-burgundy text-white font-bold px-6 py-3 rounded-lg hover:bg-brand-burgundy-dark transition-colors uppercase tracking-wide text-sm mr-4"
                 >
                   <Phone className="w-4 h-4" />

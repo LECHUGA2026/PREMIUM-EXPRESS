@@ -14,8 +14,7 @@ export function HeroSection() {
         <div className="grid gap-16 lg:grid-cols-[1.1fr_0.9fr] items-center">
           <div className="space-y-10">
             <p className="inline-flex items-center gap-3 text-xs uppercase tracking-[0.45em] text-white/40">
-              <span className="h-1.5 w-1.5 rounded-full bg-brand-burgundy" />
-              {locale === 'es' ? 'Corretaje de carga' : 'Freight brokerage'}
+              
             </p>
 
             <div className="space-y-6">

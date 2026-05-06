@@ -118,7 +118,7 @@ export async function submitContactForm(
 
     const emailPayload = {
       from: 'Premium Express <helamanalcalaing@gmail.com>',
-      to: 'info@premiumexpress.com',
+      to: 'operations@premiumexpresslog.com',
       subject: `Nuevo mensaje de ${data.name}`,
       html: buildEmailHtml(data),
       replyTo: data.email,
@@ -138,7 +138,6 @@ export async function submitContactForm(
       name: data.name,
       email: data.email,
       phone: data.phone,
-      cargoType: data.cargoType,
       message: data.message.substring(0, 50) + '...',
     })
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')

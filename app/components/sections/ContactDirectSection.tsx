@@ -15,8 +15,8 @@ const contacts = [
       '¿Necesitas transportar mercancía? Habla directamente con nuestro equipo de ventas. Te ayudamos a encontrar la solución ideal para tu carga.',
     description_en:
       'Need to transport merchandise? Talk directly with our sales team. We help you find the ideal solution for your cargo.',
-    phone: '+19153168488',
-    phoneDisplay: '+1 (915) 316-8488',
+    phone: '+19152539223',
+    phoneDisplay: '+1 (915) 253-9223',
     hours_es: 'Lun–Vie 7AM–7PM CST',
     hours_en: 'Mon–Fri 7AM–7PM CST',
     cta_es: 'Solicitar cotización →',
@@ -38,8 +38,8 @@ const contacts = [
       'Consulta las cargas disponibles que podemos mover hoy mismo. Rutas optimizadas para cada tipo de mercancía.',
     description_en:
       'Check the available loads we can move today. Optimized routes for every cargo type.',
-    phone: '+19153168488',
-    phoneDisplay: '+1 (915) 316-8488',
+    phone: '+15755548338',
+    phoneDisplay: '+1 (575) 554-8338',
     hours_es: 'Lun–Vie 7AM–7PM CST',
     hours_en: 'Mon–Fri 7AM–7PM CST',
     cta_es: 'Ver cargas →',
@@ -181,10 +181,10 @@ export function ContactDirectSection() {
         <p className="text-center text-white/30 text-xs mt-10">
           {locale === 'es' ? 'También respondemos vía email a' : 'We also respond via email at'}{' '}
           <a
-            href="mailto:info@premiumexpress.com"
+            href="mailto:operations@premiumexpresslog.com"
             className="text-white/50 hover:text-brand-burgundy transition-colors underline"
           >
-            info@premiumexpress.com
+            operations@premiumexpresslog.com
           </a>
         </p>
       </div>

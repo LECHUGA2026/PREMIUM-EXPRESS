@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -13,7 +14,7 @@ export function Navbar() {
   const navLinks = [
     { label: locale === 'es' ? 'Inicio' : 'Home', href: '#inicio' },
     { label: locale === 'es' ? 'Por qué' : 'Why', href: '#por-que' },
-    { label: locale === 'es' ? 'Red' : 'Network', href: '#network' },
+    { label: locale === 'es' ? 'Nosotros' : 'About', href: '#nosotros' },
     { label: locale === 'es' ? 'Contacto' : 'Contact', href: '#contacto' },
   ]
 
@@ -37,8 +38,13 @@ export function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between" aria-label="Main navigation">
         <a href="#inicio" className="flex items-center gap-3" aria-label="Premium Express">
-          <div className="w-10 h-10 rounded-3xl bg-white/10 border border-white/10 flex items-center justify-center">
-            <span className="text-brand-burgundy font-display font-black text-lg uppercase">P</span>
+          <div className="relative h-10 w-10 rounded-3xl overflow-hidden bg-white/10 border border-white/10 shadow-lg shadow-brand-burgundy/20">
+            <Image
+              src="/premium_express_logo.png"
+              alt="Premium Express"
+              fill
+              className="object-contain"
+            />
           </div>
           <div className="leading-tight">
             <p className="text-white font-semibold uppercase tracking-[0.2em] text-sm">Premium</p>

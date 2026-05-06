@@ -15,7 +15,7 @@ export function ServicesSection() {
           </div>
           <h2 id="services-heading" className="mt-6 text-4xl font-display font-black uppercase tracking-tight text-white sm:text-5xl lg:text-6xl">
             {locale === 'es'
-              ? 'Corretaje de carga con presencia nacional y servicio premium'
+              ? 'Gestion de cargas con presencia nacional y servicio premium'
               : 'Premium freight brokerage with national reach'}
           </h2>
           <p className="mt-6 text-white/60 text-lg leading-relaxed">
